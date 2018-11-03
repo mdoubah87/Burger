@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../BurgerIngredient.module.css';
+import classes from './BurgerIngredient.module.css';
 
 const burgerIngredient = (props) => {
     let ingredient = null;
@@ -31,6 +31,7 @@ const burgerIngredient = (props) => {
         default:
                 ingredient = null;
     }
+    return ingredient;
 
 };
 
