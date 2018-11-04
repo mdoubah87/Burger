@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import Aux from '../../../hoc/Aux';
+import Aux from '../../../hoc/Aux/Aux';
 import Button from '../../UI/Button/ Button';
 //import classes from '../../UI/Button/Button.module.css';
 
 class OrderSummary extends Component {
+    //This could be a functional component , doesn't have to be classful
     componentWillUpdate() {
         console.log ('[OrderSummary] willUpdate');
     }
